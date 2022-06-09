@@ -1,0 +1,394 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+@media (min-width: 1025px) {
+}
+
+/* min */
+@media (min-width: 1024px) {
+  /* .navbar ul {
+    /* margin-left: 60px; */
+
+  .navbar ul li {
+    margin: 0 10px;
+  }
+  .bussiness .button_2 {
+    margin-top: 40px;
+  }
+  .bussiness {
+    padding-bottom: 100px;
+    padding-top: 80px;
+  }
+  .we-love {
+    margin-top: 150px;
+    /* padding-bottom: 120px; */
+  }
+  .we-love .teks {
+    margin-left: 40px;
+  }
+  .we-love .secure {
+    margin-left: 30px;
+  }
+  .we-love .business {
+    border-right: 2px solid rgb(167, 167, 167);
+  }
+  .our-capability {
+    padding-bottom: 200px;
+  }
+  .our-capability .services {
+    margin-top: 150px;
+  }
+  .our-capability .rcard-satu {
+    margin-top: 70px;
+  }
+  .g-the-result .teks {
+    margin-left: 35px;
+  }
+  .g-the-result {
+    padding-bottom: 180px;
+  }
+  .fast {
+    padding-bottom: 150px;
+  }
+  .expert {
+    padding-bottom: 150px;
+  }
+  .bg-global {
+    padding-top: 50px;
+  }
+  .what-our .head {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  .what-our {
+    height: 500px;
+  }
+  .business-finding {
+    padding-top: 320px;
+    padding-bottom: 160px;
+  }
+}
+
+/* max */
+@media (max-width: 768px) {
+  /* .bussiness .img {
+    margin-top: 50px;
+  } */
+  .bussiness {
+    padding-top: 50px;
+  }
+  /* .we-love .teks {
+    margin-top: 80px;
+  } */
+  .our-capability .row {
+    margin-top: 80px;
+  }
+  .our-capability .space {
+    margin-top: 50px;
+  }
+  .our-capability {
+    padding-top: 50px;
+  }
+  .g-the-result {
+    padding-top: 50px;
+  }
+  .g-the-result .teks,
+  .fast,
+  .expert {
+    padding-top: 80px;
+  }
+  .what-our {
+    padding-top: 50px;
+    margin-top: 30px;
+    padding-bottom: 80px;
+  }
+  .business-finding {
+    padding-top: 180px;
+    padding-bottom: 80px;
+  }
+}
+
+.bg_contain{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* navbar */
+.navbar {
+  background-color: #06ca8c;
+  color: white;
+}
+
+.navlogo {
+  /* height: 70px; */
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li a {
+  color: white;
+}
+.navbar .dropdown-item {
+  background-color: #06ca8c;
+}
+
+.navbar .apply {
+  color: #06ca8c;
+}
+.navbar .list_icon {
+  font-size: larger;
+}
+
+/* bussiness */
+.bussiness {
+  background-color: #06ca8c;
+}
+.bussiness .welcome {
+  background-color: #49d8ac;
+  font-size: 90%;
+}
+.bussiness .head {
+  font-weight: 700;
+  font-size: 50px;
+}
+.bussiness .img {
+  background-image: url("img/img1.png");
+  background-repeat: no-repeat;
+  /* background-size: cover;
+  display: flex; */
+  height: 400px;
+}
+
+.bussiness .get_started {
+  color: #06ca8c;
+}
+.bussiness .contact_us {
+  background-color: #06ca8c;
+}
+
+/* one easy */
+.g-one-easy {
+  background-color: #f9faff;
+  padding: 40px 0;
+}
+.g-one-easy .checklist {
+  color: #06ca8c;
+  font-size: 15px;
+}
+.g-one-easy .head {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+.g-one-easy .text {
+  font-size: 90%;
+  color: #707070;
+  margin-top: 5px;
+}
+
+.we-love .img {
+  background-image: url("img/img2.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  display: flex;
+  height: 400px;
+}
+
+.we-love .teks .about-us {
+  color: #06ca8c;
+}
+.we-love .teks-p {
+  color: #707070;
+}
+.we-love h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.we-love .head {
+  color: #06ca8c;
+  font-weight: 700;
+}
+.we-love .dua {
+  margin-top: 40px;
+}
+.we-love .dua p {
+  font-weight: 600;
+}
+
+/* bg-global */
+.bg-global {
+  background-color: #f9faff;
+}
+
+/* our capability */
+
+.our-capability .view-all {
+  background-color: #06ca8c;
+}
+.our-capability h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.green {
+  color: #06ca8c;
+}
+
+.our-capability .read-more {
+  color: #06ca8c;
+  text-decoration: none;
+}
+.our-capability .rcard-satu {
+  background-color: #0a1f34;
+}
+.our-capability .rcard-satu p {
+  color: #707070;
+}
+.our-capability .rcard-dua {
+  background-color: white;
+}
+
+.our-capability h3 {
+  /* margin-top: 20px; */
+  font-weight: 700;
+}
+.our-capability .services .btn {
+  width: 60%;
+}
+/* the result */
+.g-the-result .img {
+  background-image: url("img/img3.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  height: 400px;
+}
+
+.g-the-result h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.list-the-result {
+  color: #06ca8c;
+}
+.g-the-result .talk-to-a {
+  background-color: #06ca8c;
+  width: 40%;
+  margin-top: 20px;
+}
+
+/* fast */
+.fast h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.grey {
+  color: #707070;
+}
+.fast h3 {
+  font-weight: 600;
+}
+.fast .box {
+  margin-top: 70px;
+}
+.fast .rcard {
+  box-shadow: 1px 1px 8px 1px rgb(193, 193, 248);
+}
+
+/* expert */
+.expert .end-view-all {
+  overflow: auto;
+}
+.expert h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.expert .btn {
+  float: right;
+  padding: 4px 20px;
+}
+.expert img {
+  height: 300px;
+}
+.expert .bold {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 20px;
+}
+.expert .small {
+  font-size: 80%;
+}
+.expert .profile {
+  margin-top: 60px;
+}
+.expert .socialmedia i {
+  padding: 10px;
+}
+
+/* what our */
+.what-our {
+  background-color: #06ca8c;
+}
+.what-our .bold {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.what-our .rounded {
+  box-shadow: 1px 1px 8px 1px rgb(193, 193, 248);
+}
+
+/* business-finding */
+
+.business-finding .bgdark {
+  background-color: #0a1f34;
+  padding: 60px;
+}
+
+.business-finding h3 {
+  font-weight: 600;
+}
+
+.business-finding .bg-green {
+  background-color: #06ca8c;
+}
+
+.business-finding .apply {
+  float: right;
+}
+.business-finding .applys {
+  overflow: auto;
+}
+
+/* footer */
+footer {
+  padding-bottom: 5px;
+  padding-top: 80px;
+  background-color: #061220;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer h4 {
+  margin-bottom: 40px;
+}
+footer img {
+  height: 40px;
+}
+footer input {
+  padding: 5px 10px;
+}
+footer .green {
+  background-color: #06ca8c;
+}
+footer li {
+  margin-bottom: 5px;
+}
+footer .copy {
+  margin-top: 60px;
+}
